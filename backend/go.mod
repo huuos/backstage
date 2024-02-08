@@ -1,4 +1,4 @@
-module backstage
+module github.com/huuos/backstage
 
 go 1.22.0
 
