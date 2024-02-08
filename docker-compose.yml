@@ -12,3 +12,15 @@ services:
     ports:
       - "3000:3000"
     restart: always
+
+  mysql:
+    image: mysql:8.0
+    container_name: database
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: backstage
+      MYSQL_USER: sonny
+      MYSQL_PASSWORD: dev
+    ports:
+      - "3306:3306"
