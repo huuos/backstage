@@ -1,4 +1,4 @@
-Hospitality and Production Management for Relentless Beats
+Hospitality and Production Management
 
 To build containers:
 `docker buildx build -t backstage-frontend .`
